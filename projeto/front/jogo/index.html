@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+ 
+  <title>Parasitologia Brasil</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: #03e922;">
+  <div class="container">	
+    <div class="row">
+  	  <div class="two-thirds column">
+        <a href="javascript:void(0)" onClick="history.go(-1); return false;"><img src="../assets/img/logo_parasitologia.png" width="350px" alt=""></a>
+        <div id="progress_bar" style="background-color: rgb(0, 21, 206);"></div>
+  	  	<form class="questions_box">
+
+  	  		<div id="question-1">
+  	  		  <h2 style="color:black ">Pergunta 1</h2>
+  	  			<h3 style="color: rgb(0, 21, 206);">Como a malária é transmitida?</h3>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=0> Ocorre a penetração ativa da cercária na pele e na mucosa, esta ação ocorre mais nos pés e nas pernas.<br>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value=0> O hospedeiro definitivo (humanos) infecta-se ao ingerir carne suína ou bovina.<br>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value=1> A transmissão é acometida via picada do mosquito fêmea do gênero Anopheles.<br>
+  				  <div id="submit1" class="button"style="background-color: rgb(0, 21, 206);" >Enviar Resposta</div>
+            <div class="clearfix"></div>
+  			  </div>
+
+  			 <div id="question-2">
+  				 <h2 style="color:black ">Pergunta 2</h2>
+  				 <h3 style="color: rgb(0, 21, 206);"> Qual doença é causada pelos parasitas Ancylostoma duodenale ou Necator
+            americanus?</h3>
+  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"> Ancilostomose<br>
+  				 <input id="question-2-answer-b" type="radio" name="favelang" value="0"> Esquistossomose<br>
+  				 <input id="question-2-answer-c" type="radio" name="favelang" value="0"> Toxoplasmose<br>
+  				 <div id="submit2" class="button" style="background-color: rgb(0, 21, 206);">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+  			
+  			 <div id="question-3">	
+  				 <h2 style="color:black ">Pergunta 3</h2>
+  				 <h3 style="color: rgb(0, 21, 206);">Qual desses sintomas, é um sintoma de Ascaridíase?</h3>
+  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="0"> Aumento das globulinas<br>
+  				 <input id="question-3-answer-b" type="radio" name="favelang" value="0"> Tenesmo<br>
+  				 <input id="question-3-answer-c" type="radio" name="favelang" value="1"> Subnutrição<br>
+  				 <div id="submit3" class="button" style="background-color: rgb(0, 21, 206);">Enviar Resposta</div>
+           <div class="clearfix"></div>
+  			 </div>
+
+         <div id="question-4">
+            <h2 style="color:black ">Pergunta 4</h2>
+            <h3 style="color: rgb(0, 21, 206);">Qual enfermidade é causada pela mosca?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="0"> Tuberculose<br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="1"> Miíase<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="0"> Corona Virus<br>
+            <div id="submit4" class="button" style="background-color: rgb(0, 21, 206);">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-5">
+            <h2 style="color:black ">Pergunta 5</h2>
+            <h3 style="color: rgb(0, 21, 206);">Qual doença mais matou pessoas no mundo?</h3>
+            <input id="question-1-answer-a" type="radio" name="favelang" value="0"> Malária<br>
+            <input id="question-1-answer-b" type="radio" name="favelang" value="0"> Doença de Chagas<br>
+            <input id="question-1-answer-c" type="radio" name="favelang" value="1"> Peste bulbônica<br>
+            <div id="submit5" class="button" style="background-color: rgb(0, 21, 206);">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+         <div id="question-6"> 
+           <h2 style="color:black ">Obrigado por jogar nosso Quiz!</h2>
+           <h3 style="color: rgb(0, 21, 206);">Sua pontuação foi de: </h3>
+           <h1 style="color: rgb(0, 21, 206);" id=printtotalscore></h1>
+
+           <a href="javascript:void(0)" onClick="history.go(-1); return false;" style="text-decoration: none;">Voltar</a>
+
+         </div>
+
+
+  				
+  	  	</form>
+
+  	  </div>
+  	</div>
+  </div>
+
+  <script src="scripts.js"></script>
+   <!-- Bootstrap core JS-->
+
+</body>
+</html>
